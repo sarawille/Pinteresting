@@ -75,4 +75,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+    # Required for Heroku.  Sets the defaul link in "forgot password" emails.
+    # Must be set to actual URL name.
+  config.action_mailer.default_url_options = { host: 'omr-sara-pinteresting.herokuapp.com', port:3000 }
 end
