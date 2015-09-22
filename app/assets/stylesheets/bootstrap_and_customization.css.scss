@@ -1,23 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Lato:400,700);
 
 $body-bg: 							#ecf0f1;
 $font-family-sans-serif:			'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$headings-font-family:				'Pacifico', cursive;
 
 $navbar-inverse-bg:					white;
-$navbar-inverse-brand-color:		#c0392b;
-$navbar-inverse-link-color:			#c0392b;
-$navbar-inverse-brand-hover-color:	#c0392b;
 $navbar-inverse-height:				45px;
 $navbar-padding:					10px;
-
+$navbar-inverse-brand-color:		#d35400;
+$navbar-inverse-link-color:			#d35400;
+$navbar-inverse-brand-hover-color:	#d35400;
 
 $jumbotron-bg:						white;
-$jumbotron-heading-color:			#c0392b;
-$jumbotron-color:					#c0392b;
+$jumbotron-heading-color:			#d35400;
+$jumbotron-color:					#d35400;
 $jumbotron-height:					20px;
 
-$brand-primary: 					#2c3e50;
-$link-hover-color:					#c0392b;
+$brand-primary: 					#d35400;
+$link-hover-color:					#d35400;
 $link-hover-decoration:				none;
 
 
