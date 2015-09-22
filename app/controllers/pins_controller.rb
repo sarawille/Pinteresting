@@ -40,7 +40,7 @@ class PinsController < ApplicationController
 
   private
     def set_pin
-      @pin = Pin.find(params[:id])
+      @pin = Pin.find_by(id: params[:id])
     end
 
     def correct_user

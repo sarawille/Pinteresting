@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     get '/users/sign_out' => 'devise/sessions#destroy'
   end
 
-  root 'pages#home' # creates root_path
+  root 'pins#index' # creates root_path
   get "about" => 'pages#about' # creates about_path
 
   # The priority is based upon order of creation: first created -> highest priority.
